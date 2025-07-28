@@ -94,8 +94,7 @@ If you follow the guide correctly, you'll be able to root your device.
      fastboot flash boot <select patched_boot.img>
      ```
 
-> 🖼️ Add GIF here: `how_to_select_bootimg.gif`  
-➡️ **Where should this go exactly? While selecting file or after flashing?**
+>   
 
 ---
 
