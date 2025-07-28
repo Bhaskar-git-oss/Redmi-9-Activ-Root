@@ -86,15 +86,16 @@ If you follow the guide correctly, you'll be able to root your device.
    - OTG's **microUSB** goes into the **other** phone  
    - Your phone's **data cable** plugs into **your (target) device**
 3. When prompted, allow the OTG connection
-4. Open **Bugjaeger** → tap **Boot to Bootloader**
+4. Open **Bugjaeger** → tap **Reboot Bootloader**
 5. Once in bootloader:
    - Tap ⚡ icon → Open **Terminal**
    - Enter the command:  
      ```sh
      fastboot flash boot <select patched_boot.img>
      ```
+ Here's how to select the file in Bugjaeger:
 
->   
+![Selecting boot.img in Bugjaeger](how_to_select_file.mp4)
 
 ---
 
