@@ -95,7 +95,7 @@ If you follow the guide correctly, you'll be able to root your device.
      ```
  Here's how to select the file in Bugjaeger:
 
-![Selecting boot.img in Bugjaeger](how_to_select_file.mp4)
+![Selecting boot.img in Bugjaeger](how_to_add_file.mp4)
 
 ---
 
