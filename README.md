@@ -100,7 +100,60 @@ If you follow the guide correctly, you'll be able to root your device.
 ---
 
 ### 💻 Using a PC or Laptop  
-*(Coming Soon!)*
+_Works on Linux & Windows_
+
+1. **Get Platform-Tools**
+    
+    - Download from: [Android SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools)
+        
+    - Pick your OS → Extract the ZIP somewhere easy (like Desktop)
+        
+2. **Prep the Patched Boot.img**
+    
+    - Copy your patched `boot.img` into the same folder as `platform-tools` (makes life easier 😉)
+        
+    - Or note the full path if it’s elsewhere.
+        
+3. **Open Terminal / Powershell**
+    
+    - Linux: Open terminal in the platform-tools folder (`cd /path/to/platform-tools`)
+        
+    - Windows: Shift + Right Click → **Open PowerShell window here**
+        
+4. **Connect your phone**
+    
+    - Plug it into PC via USB
+        
+    - Make sure **USB Debugging** is enabled
+        
+    - Select **No Data Transfer** on the phone
+        
+5. **Reboot into Bootloader**
+    
+    ```sh
+    adb reboot bootloader
+    ```
+    
+6. **Flash the Patched Boot.img**
+    
+    - Linux:
+        
+        ```sh
+        ./fastboot flash boot /full/path/to/patched_boot.img
+        ```
+        
+    - Windows:
+        
+        ```sh
+        .\fastboot flash boot C:\full\path\to\patched_boot.img
+        ```
+        
+7. **Reboot your device**
+    
+    ```sh
+    fastboot reboot
+    ```
+
 
 ---
 
