@@ -59,11 +59,11 @@ If you follow the guide correctly, you'll be able to root your device.
 
 ## 📦 Step 2 – Getting the `boot.img` File
 
+- Or you can download already patched and extracted boot.img from the releases section.
 - Download **Redmi 9 Activ boot.img** from a trusted source.  
 - Or extract it yourself from the official **Fastboot ROM**:  
   [MIUI V12.0.18.0 Fastboot ROM](https://xmfirmwareupdater.com/miui/cattail/stable/V12.0.18.0.QCTINXM/) (~2.6 GB)  
   Extract the archive multiple times until you get `boot.img`.
-- Or you can download already patched and extracted boot.img from the releases section.
 ---
 
 ## 🧙‍♂️ Step 3 – Patching `boot.img` for Root
