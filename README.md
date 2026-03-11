@@ -7,7 +7,7 @@ Before we dive in, **make sure this guide is for your specific device**. (Skip t
 
 > ⚠️ This guide only covers:
 - **Device**: Redmi 9 Activ  
-- **Also known as**: Redmi 9C  
+- **Also known as**: Redmi 9C  (CATTAIL)
 - **Codename**: cattail  
 - **Region**: India  
 - **MIUI Version**: 12.0.8.0  
@@ -76,7 +76,7 @@ If you follow the guide correctly, you'll be able to root your device.
 
 ---
 
-## ⚡ Step 5 – Flashing the Patched `boot.img`
+## ⚡ Step 4 – Flashing the Patched `boot.img`
 
 ### 📱 Using Another Android Phone  
 (Tested on Android 10; not recommended for Android 11+ as OTG support may break the process)
@@ -91,6 +91,7 @@ If you follow the guide correctly, you'll be able to root your device.
    - Tap ⚡ icon → Open **Terminal**
    - Enter the command:  
      ```sh
+     adb reboot bootloader
      fastboot flash boot <select patched_boot.img>
      ```
  Here's how to select the file in Bugjaeger:
